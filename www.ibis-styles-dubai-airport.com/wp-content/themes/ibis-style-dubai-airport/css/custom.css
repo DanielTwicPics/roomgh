@@ -1,0 +1,75 @@
+li {
+    font-family: 'Gotham', sans-serif;
+    color: #676767;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+div.left-column > div > ul > li {
+    font-family: 'Gotham', sans-serif;
+    color: #676767;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+.left-column h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cocon', sans-serif;
+    color: #676767;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.page-template-default .left-column ,
+.page-template-template-restaurant .left-column ,
+.page-template-template-contact .left-column ,
+.page-template-template-newsletter .left-column ,
+.page-template-template-room .left-column {
+    width: 100%;
+    border-right: none;
+    border-left: none;
+}
+.page-template-default .right-column ,
+.page-template-template-contact .right-column ,
+.page-template-template-newsletter .right-column ,
+.page-template-template-restaurant .right-column {
+    display: none;
+}
+
+.roomtype ul {
+    display: flex;
+    justify-content: center;
+}
+
+div.roomtype li {
+    width: 100%;
+}
+
+.roomtype img {
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .roomtype ul {
+        flex-direction: column;
+    }
+    div.roomtype ul li:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+.sidebar_text ul {
+    margin: 20px;
+    list-style-type: disc;
+    font-family: 'Gotham', sans-serif;
+    color: #676767;
+    font-size: 14px;
+}
+.sidebar_text ul li {
+    margin: 10px 0;
+}

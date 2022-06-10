@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.ibis-styles-dubai-airport.com	TRUE	/	FALSE	1999999999	_icl_current_language	en
+

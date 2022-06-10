@@ -1,0 +1,67 @@
+div.std_breadcrumb {
+  display: block;
+  position: relative;
+  padding: 0 0 5px 10px;
+  margin: 0 0 15px 0; }
+  div.std_breadcrumb ul.aac_bcrumb_list {
+    display: block;
+    line-height: 15px;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      color: #574f4e;
+      font-size: 12px; }
+      div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm.el_0 > a:before {
+        display: none; }
+      div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm.typ_self > a, div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm.typ_self > a > span {
+        text-transform: uppercase;
+        font-size: 10px; }
+      div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm > a {
+        font-family: "Gotham", sans-serif;
+        color: #574f4e;
+        font-size: 12px;
+        display: inline;
+        margin: 0;
+        padding: 0;
+        position: static;
+        text-decoration: none; }
+        div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm > a:before {
+          content: ' / '; }
+        div.std_breadcrumb ul.aac_bcrumb_list li.aac_bcrumb_itm > a > span {
+          font-family: "Gotham", sans-serif;
+          display: inline;
+          margin: 0;
+          padding: 0;
+          position: static;
+          line-height: 1;
+          font-size: 12px;
+          color: #574f4e; }
+
+div.std_breadcrumb.tpl_rooms, div.std_breadcrumb.tpl_restaurants, div.std_breadcrumb.tpl_news, div.std_breadcrumb.tpl_meetings {
+  margin-top: 10px;
+  padding-left: 10px; }
+div.std_breadcrumb.tpl_room, div.std_breadcrumb.tpl_restaurant {
+  margin-top: -10px; }
+div.std_breadcrumb.tpl__dft {
+  margin-top: -10px; }
+div.std_breadcrumb.tpl_gallery, div.std_breadcrumb.tpl_gallery-wp {
+  position: absolute;
+  left: 20px;
+  color: #FFF;
+  z-index: 200;
+  top: 10px; }
+  html.mobile div.std_breadcrumb.tpl_gallery, html.mobile div.std_breadcrumb.tpl_gallery-wp {
+    left: 0; }
+  div.std_breadcrumb.tpl_gallery ul.aac_bcrumb_list li.aac_bcrumb_itm > a,
+  div.std_breadcrumb.tpl_gallery ul.aac_bcrumb_list li.aac_bcrumb_itm > a > span, div.std_breadcrumb.tpl_gallery-wp ul.aac_bcrumb_list li.aac_bcrumb_itm > a,
+  div.std_breadcrumb.tpl_gallery-wp ul.aac_bcrumb_list li.aac_bcrumb_itm > a > span {
+    color: #FFF; }
+
+/*# sourceMappingURL=ibis-style-template.css.map */
